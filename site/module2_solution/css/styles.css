@@ -19,12 +19,8 @@ div.container
 {
   border: 1px solid black;
   background-color: #cc66ff;
-  width: 90%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top :30px;
-  margin-bottom :30px;
-  
+  margin: 30px;
+
 }
 
 /********** Each Section content styles **********/
@@ -35,12 +31,15 @@ div.content
   clear: both;
   font-size: 100%;
   text-align: justify;
+  overflow : auto;
+  height : 300px;
 
 }
 /********** Each Section Title styles **********/
 p {
   width:40%;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   float :right;
   text-align : center;
   font-size: 125%;
